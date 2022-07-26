@@ -1,0 +1,251 @@
+[21-Jul-2022 19:10:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3 and at least 2 expected in /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/plugin.php:400
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(3): add_action()
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-settings.php(566): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-config.php(91): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/aisha/Lo...')
+#4 /Users/aisha/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/aisha/Lo...')
+#5 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 400
+[21-Jul-2022 19:42:12 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_uri' (T_STRING), expecting ')' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[22-Jul-2022 19:49:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university' not found or invalid function name in /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 307
+[22-Jul-2022 19:49:16 UTC] PHP Stack trace:
+[22-Jul-2022 19:49:16 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[22-Jul-2022 19:49:16 UTC] PHP   2. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[22-Jul-2022 19:49:16 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-load.php:50
+[22-Jul-2022 19:49:16 UTC] PHP   4. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-config.php:91
+[22-Jul-2022 19:49:16 UTC] PHP   5. do_action() /Users/aisha/Local Sites/fictional-university/app/public/wp-settings.php:598
+[22-Jul-2022 19:49:16 UTC] PHP   6. WP_Hook->do_action() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/plugin.php:476
+[22-Jul-2022 19:49:16 UTC] PHP   7. WP_Hook->apply_filters() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:331
+[22-Jul-2022 20:51:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 22 and exactly 1 expected in /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/link-template.php:1297
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php(22): get_post_type_archive_link()
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/link-template.php on line 1297
+[22-Jul-2022 21:00:22 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[22-Jul-2022 21:01:36 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[22-Jul-2022 21:37:20 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 24
+[22-Jul-2022 21:37:20 UTC] PHP Stack trace:
+[22-Jul-2022 21:37:20 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[22-Jul-2022 21:37:20 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[22-Jul-2022 21:37:20 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[22-Jul-2022 21:37:20 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[22-Jul-2022 21:37:20 UTC] PHP   5. get_header() /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:3
+[22-Jul-2022 21:37:20 UTC] PHP   6. locate_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[22-Jul-2022 21:37:20 UTC] PHP   7. load_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:716
+[22-Jul-2022 21:37:20 UTC] PHP   8. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:770
+[22-Jul-2022 21:37:32 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 24
+[22-Jul-2022 21:37:32 UTC] PHP Stack trace:
+[22-Jul-2022 21:37:32 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[22-Jul-2022 21:37:32 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[22-Jul-2022 21:37:32 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[22-Jul-2022 21:37:32 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[22-Jul-2022 21:37:32 UTC] PHP   5. get_header() /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:3
+[22-Jul-2022 21:37:32 UTC] PHP   6. locate_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[22-Jul-2022 21:37:32 UTC] PHP   7. load_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:716
+[22-Jul-2022 21:37:32 UTC] PHP   8. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:770
+[22-Jul-2022 21:37:33 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 24
+[22-Jul-2022 21:37:33 UTC] PHP Stack trace:
+[22-Jul-2022 21:37:33 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[22-Jul-2022 21:37:33 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[22-Jul-2022 21:37:33 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[22-Jul-2022 21:37:33 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[22-Jul-2022 21:37:33 UTC] PHP   5. get_header() /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:3
+[22-Jul-2022 21:37:33 UTC] PHP   6. locate_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[22-Jul-2022 21:37:33 UTC] PHP   7. load_template() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:716
+[22-Jul-2022 21:37:33 UTC] PHP   8. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template.php:770
+[22-Jul-2022 21:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:34
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#3 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 34
+[22-Jul-2022 21:53:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:34
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#3 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 34
+[22-Jul-2022 21:53:52 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:53:52 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:53:53 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:53:53 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:53:54 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:53:54 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:11 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:13 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:14 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:54:16 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:35
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(35): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 35
+[22-Jul-2022 21:55:32 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (22/07/2022) at position 0 (2): Unexpected character in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:36
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(36): DateTime->__construct('22/07/2022')
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 36
+[25-Jul-2022 16:02:44 UTC] PHP Warning:  Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 38
+[25-Jul-2022 16:02:44 UTC] PHP Stack trace:
+[25-Jul-2022 16:02:44 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 16:02:44 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 16:02:44 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 16:02:44 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:00:49 UTC] PHP Warning:  Use of undefined constant the_field - assumed 'the_field' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:00:49 UTC] PHP Stack trace:
+[25-Jul-2022 21:00:49 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:00:49 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:00:49 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:00:49 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:00:49 UTC] PHP Warning:  Illegal string offset 'page_banner_subtitle' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:00:49 UTC] PHP Stack trace:
+[25-Jul-2022 21:00:49 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:00:49 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:00:49 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:00:49 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:02:44 UTC] PHP Warning:  Use of undefined constant the_field - assumed 'the_field' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:02:44 UTC] PHP Stack trace:
+[25-Jul-2022 21:02:44 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:02:44 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:02:44 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:02:44 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:02:44 UTC] PHP Warning:  Illegal string offset 'page_banner_subtitle' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:02:44 UTC] PHP Stack trace:
+[25-Jul-2022 21:02:44 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:02:44 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:02:44 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:02:44 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:03:41 UTC] PHP Warning:  Use of undefined constant the_field - assumed 'the_field' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:03:41 UTC] PHP Stack trace:
+[25-Jul-2022 21:03:41 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:03:41 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:03:41 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:03:41 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:03:41 UTC] PHP Warning:  Illegal string offset 'page_banner_subtitle' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:03:41 UTC] PHP Stack trace:
+[25-Jul-2022 21:03:41 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:03:41 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:03:41 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:03:41 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:04:11 UTC] PHP Warning:  Use of undefined constant get_field - assumed 'get_field' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:04:11 UTC] PHP Stack trace:
+[25-Jul-2022 21:04:11 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:04:11 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:04:11 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:04:11 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:04:11 UTC] PHP Warning:  Illegal string offset 'page_banner_subtitle' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:04:11 UTC] PHP Stack trace:
+[25-Jul-2022 21:04:11 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:04:11 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:04:11 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:04:11 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:04:12 UTC] PHP Warning:  Use of undefined constant get_field - assumed 'get_field' (this will throw an Error in a future version of PHP) in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:04:12 UTC] PHP Stack trace:
+[25-Jul-2022 21:04:12 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:04:12 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:04:12 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:04:12 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:04:12 UTC] PHP Warning:  Illegal string offset 'page_banner_subtitle' in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 10
+[25-Jul-2022 21:04:12 UTC] PHP Stack trace:
+[25-Jul-2022 21:04:12 UTC] PHP   1. {main}() /Users/aisha/Local Sites/fictional-university/app/public/index.php:0
+[25-Jul-2022 21:04:12 UTC] PHP   2. require() /Users/aisha/Local Sites/fictional-university/app/public/index.php:17
+[25-Jul-2022 21:04:12 UTC] PHP   3. require_once() /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Jul-2022 21:04:12 UTC] PHP   4. include() /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Jul-2022 21:04:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 8 and exactly 1 expected in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:3
+Stack trace:
+#0 /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(8): pageBanner()
+#1 /Users/aisha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/aisha/Lo...')
+#2 /Users/aisha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/aisha/Lo...')
+#3 /Users/aisha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/aisha/Lo...')
+#4 {main}
+  thrown in /Users/aisha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3
